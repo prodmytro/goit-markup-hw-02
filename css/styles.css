@@ -170,7 +170,7 @@ span.logo-prefix {
 .portfolio {
 }
 
-.filter-button .link {
+.filter-button {
   font-family: 'Roboto';
   font-style: normal;
   border-radius: 4px;
@@ -180,6 +180,7 @@ span.logo-prefix {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-text-c-olor);
+  border: none;
 }
 
 .filter-button:hover,
@@ -195,6 +196,7 @@ span.logo-prefix {
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .portfolio-item {
