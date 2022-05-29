@@ -22,19 +22,11 @@
 .section-title {
   color: var(--second-text-color);
   text-align: center;
-}
-
-.hero-btn {
-  font-family: inherit;
-  color: var(--white-color);
-  background-color: var(--accent-color);
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  font-size: 36px;
+  line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.06em;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  letter-spacing: 0.03em;
 }
 
 .visually-hidden {
@@ -81,7 +73,6 @@ span.logo-prefix {
 
 .header-contacts a {
   color: #757575;
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -97,6 +88,20 @@ span.logo-prefix {
 
 /* HERO SECTION */
 
+.hero-btn {
+  font-family: inherit;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 .hero {
   background-color: var(--footer-hero-background);
 }
@@ -110,9 +115,6 @@ span.logo-prefix {
   text-transform: uppercase;
   color: var(--white-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.hero-btn {
 }
 
 /* ASSET SECTION */
@@ -130,7 +132,6 @@ span.logo-prefix {
 }
 
 .asset-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -171,8 +172,7 @@ span.logo-prefix {
 }
 
 .filter-button {
-  font-family: 'Roboto';
-  font-style: normal;
+  font-family: inherit;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
@@ -181,22 +181,18 @@ span.logo-prefix {
   letter-spacing: 0.03em;
   color: var(--second-text-c-olor);
   border: none;
+  cursor: pointer;
+  background-color: #f5f4fa;
 }
 
 .filter-button:hover,
 .filter-button:focus,
 .filter-button.current {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
+  color: var(--white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  cursor: pointer;
 }
 
 .portfolio-item {
@@ -211,7 +207,6 @@ span.logo-prefix {
   color: var(--second-text-color);
 }
 .portfolio-group {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -226,22 +221,25 @@ footer {
 
 .footer-logo {
   font-family: 'Raleway';
-  font-style: normal;
   color: var(--white-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.footer-addr {
+  font-style: normal;
 }
 
 .footer-contacts-adress {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.77;
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
 
-.footer-contacts a {
-  font-style: normal;
-  font-weight: 400;
+.footer-contacts {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
